@@ -1,0 +1,111 @@
+<!-- 
+    This file and accompanying files are based off of instructions from 
+    Easy Tutorials on YouTube https://youtu.be/oYRda7UtuhA
+
+    And off of the bootstrap live coding tutorial from class
+ -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Redesign</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <!-- Header (welcome page?)-->
+        <section class="header">
+            <section class="header">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="">Responsive Redesign</a>
+                        <div class="collapse navbar-collapse">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="#Problems">Problems</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#LFP">Low-Fi Prototypes</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Style-Guide">Visual Design Style Guide</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#HFP">High-Fi Prototypes</a></li>
+                                <li class="nav-item"><a class="nav-link" href="http://highspiritsliquors.com/">Current Site</a></li>
+                                <li class="nav-item"><a class="nav-link" href="highspiritsnew.html">New Site</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <img src="images/highspiritsfront.jpeg">
+        </section>
+        <!-- first_thing im showing-->
+        <section id=Problems class="Problems">
+            <h1>Problems with the Current Website</h1>
+            <div class="row">
+                <div class="screenshot">
+                    <h2>Top of page</h2>
+                    <img src="images/hsogtop.png">
+                </div> 
+                <div class="screenshot">
+                    <h2>Bottom of page</h2>
+                    <img src="images/hsogbot.png">
+                </div>
+                <ul>
+                    <li>Most users would probably be looking to find out hours, location, contact info, maybe sale info, but the first three most often</li>
+                    <li>The most important information (hours, location, even about) isn’t readily available and it’s not clear where to find it on first inspection</li>
+                    <li>Main letterhead and most importantly, location, have to be scrolled to</li>
+                    <li>Scrolling action is not smooth and makes the user scroll all the way to the bottom when they might not want to do that</li>
+                    <li>The first image isn’t the store, but prices for what are assumed to be beer
+                        the information isn’t all that helpful if you’re trying to learn about what the store is
+                    </li>
+                    <li>Text below the letterhead is tiny and hard to read</li>
+                    <li>The google maps extension doesn't work, it's a nice touch, but is it really needed in this day and age where most people would just open a new tab or use their phone for directions anyway?</li>
+                    <li>WAVE didn’t find any major accessibility issues</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- second thing -->
+        <section id=LFP class="lowfi">
+            <h1>Low-fi Prototypes</h1>
+            <div class="row">
+                <div class="lowfi-col">
+                    <img src="images/lowfiRR_desk.jpg">
+                </div>
+                <div class="lowfi-col">
+                    <img src="images/lowfiRR_tab.jpg">
+                </div>
+                <div class="lowfi-col">
+                    <img src="images/lowfiRR_mobile.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!-- third thing -->
+        <section id="Style-Guide" class="style-guide">
+            <h1>Visual Design Style Guide</h1>
+            <div class="row">
+                <div class="style-guide-figma">
+                    <img src="images/figmastyle.png">
+                </div>
+            </div>
+        </section>
+
+        <!-- fourth thing -->
+        <section id=HFP class="highfi">
+            <h1>High-fi Prototypes</h1>
+            <p>I don't have all that much to say about design choices here.
+                Information that is most relevant is presented front and center, 
+                in a way that stays true to the aesthetics of the original site. <br>
+                You'll notice that the hifi prototypes differ from the final site. <br> 
+                When I was buliding it, I found that the difference between mobile and desktop wasn't all that much and elected to remove the hamburger menu.
+            </p>
+            <div class="row">
+                <div class="highfi-item">
+                    <img src="images/figmadesk.png">
+                </div>
+                <div class="highfi-item">
+                    <img src="images/figmatab.png">
+                </div>
+                <div class="highfi-item">
+                    <img src="images/figmamobile.png">
+                </div>
+            </div>
+        </section>
+</body>
+</html>
