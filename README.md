@@ -1,1 +1,1 @@
-# responsive_redesign
+# CS1300 Portfolio
