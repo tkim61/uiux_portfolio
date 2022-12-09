@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    /* font! */
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/whales.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.frontpage_text{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.frontpage_text h1{
+    font-size: 62px;
+}
+.frontpage_text p{
+    margin: 10px 0 40px;
+    line-height: 2;
+    font-size: 22px;
+    color:#fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border:1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background-color: black;
+    opacity: 45%;
+    transition: 0.2s;
+}
+
+/* nav .fa{
+    display:none;
+    hide the mobile icons
+} */
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;    
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background:red;
+        height: 100vh;
+        width:200px;
+        top:0;
+        right:0;
+        text-align: left;
+        z-index: 2;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+
+/* First thing */
+.first_thing{
+    width:100%;
+    height: 100%;
+    background-color: lavender;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.first_thing h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.first_thing h4{
+    color:indigo;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.item-col{
+    flex-basis: 31%; /*like a third*/
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    position:relative;
+}
+.item-col img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.item-col p{
+    padding:0;
+}
+.item-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Second thing */
+.second_thing{
+    width:100%;
+    height: 100%;
+    background-color: lavender;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.second_thing h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.second_thing h4{
+    color:indigo;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+}
+.item2-col{
+    flex-basis: 80%; /*like a third*/
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    position:relative;
+}
+.item2-col img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.item2-col p{
+    padding:0;
+}
+.item2-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+/* Second thing */
+.third_thing{
+    width:100%;
+    height: 100%;
+    background-color: lavender;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.third_thing h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.third_thing h4{
+    color:indigo;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+}
+.item3-col{
+    flex-basis: 80%; /*like a third*/
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right:5%;
+    text-align: left;
+    position:relative;
+    background-color: white;
+}
+
+.item3-col h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.item3-col h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 450;
+    line-height: 20px;
+    padding: 10px;
+}
+.item3-col p{
+    font-size: 25px;
+}
+
+
+
+
