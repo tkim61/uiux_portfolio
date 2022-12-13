@@ -5,13 +5,13 @@
 }
 
 html{
-    background-color: lightsteelblue;
+    background-color: lightsalmon;
 }
 
 .header{
     min-height: 100vh;
     width: 100%;
-    background-color:lightsteelblue;
+    background-color:lightsalmon;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -54,8 +54,8 @@ html{
 /* First thing */
 .first_thing{
     width:100%;
-    height: 200%;
-    background-color: lightsteelblue;
+    height: 100%;
+    background-color: lightsalmon;
     margin:auto;
     text-align: center;
     padding-top: 100px;
@@ -113,58 +113,43 @@ html{
     text-align: center;
 }
 
-/* Second thing */
 .second_thing{
-    margin-top: -50%;
     width:100%;
-    height: 400%;
-    background-color: lightsteelblue;
+    height: 100%;
+    background-color: lightsalmon;
+    padding-bottom: 15%;
+    margin:auto;
     text-align: center;
+    padding-top: 100px;
 }
-
-.second_thing p{
-    color: black;
+.second_thing h1{
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .second_thing h4{
-    color: black;
+    color:black
 }
-
-.second_thing h1{
-    color: black;
-}
-
-.second_thing h3{
-    color: black;
-}
-
-.second_thing a{
-    color:darkblue;
-    text-decoration: underline;
-}
-
 .item2-row{
     height:70%;
-    margin-bottom: -150%;
     padding: 2%;
     border-radius: 10px;
     display: flex;
     justify-content:space-evenly;
 }
 
-
 .item2-col-6 img{
-    width: 40vw;
-    height: 25%;
+    width: 50vw;
+    height: 160%;
     padding:2%;
     border-radius: 20px;
 }
 
-.item2-col a{
+.item2-col-6 a{
     text-align: center;
 }
 
-.item2-col h3{
+.item2-col-6 h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
@@ -175,8 +160,9 @@ html{
 .third_thing{
     width:100%;
     height: 100%;
-    margin-top: -15%;
-    background-color: lightsteelblue;
+    margin:auto;
+    padding: 15%;
+    background-color: lightsalmon;
     text-align: center;
 }
 
@@ -202,13 +188,14 @@ html{
 }
 
 .item3-row{
-    background-color:lightskyblue;
-    height:25%;
-    margin-top: 5%;
+    background-color:lightcoral;
+    height:100%;
+    margin-top: 3%;
     margin-bottom: 3%;
     padding: 2%;
     border-radius: 10px;
     display: flex;
+    text-align: left;
     justify-content:space-evenly;
 }
 
@@ -229,49 +216,5 @@ html{
     margin-bottom: 15px;
     text-align: center;
 }
-
-/* Fourth thing */
-.fourth_thing{
-    width:100%;
-    height: 100%;
-    background-color: lightsteelblue;
-    text-align: left;
-}
-
-.fourth_thing p{
-    color: black;
-}
-
-.fourth_thing h4{
-    color: black;
-}
-
-.fourth_thing h1{
-    color: black;
-}
-
-.fourth_thing h3{
-    color: black;
-}
-
-.fourth_thing a{
-    color:darkblue;
-    text-decoration: underline;
-}
-
-.item4-row{
-    background-color:lightskyblue;
-    height:40%;
-    margin-bottom: 3%;
-    padding: 2%;
-    border-radius: 10px;
-}
-
-.item4-col-12 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-}
-
 
 

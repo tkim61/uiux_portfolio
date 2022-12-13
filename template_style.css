@@ -3,6 +3,11 @@
     padding:0;
     /* font! */
 }
+
+html{
+    background-color: lavender;
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -195,7 +200,7 @@
     padding-right:5%;
     text-align: left;
     position:relative;
-    background-color: white;
+    background-color: palevioletred;
 }
 
 .item3-col h1{
@@ -211,9 +216,7 @@
     line-height: 20px;
     padding: 10px;
 }
-.item3-col p{
-    font-size: 25px;
-}
+
 
 
 
